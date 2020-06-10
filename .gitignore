@@ -1,2 +1,14 @@
-# Project exclude paths
-/node_modules/
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы редактора
+.idea
+
+# Вспомогательные файлы
+*.log*
+node_modules/
+reports/
+
+# Папка с собранными файлами проекта
+build/
